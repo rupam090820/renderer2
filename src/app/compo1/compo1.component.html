@@ -1,0 +1,12 @@
+<p>compo1 works!</p>
+<div #n>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur earum, aliquid vero voluptates explicabo voluptatibus. Placeat explicabo accusantium voluptatem molestiae, corporis laudantium eaque, sint odit necessitatibus, inventore repellendus magni sunt?
+    
+</div>
+
+<p #p></p>
+
+<h2>Add/ Remove Attributes </h2>
+<input #inputElement type='text'>
+<button (click)="addAttribute()" (click)="send(inputElement.value)">Set Attribute</button>
+<button (click)="removeAttribute()">Remove Attribute</button>
